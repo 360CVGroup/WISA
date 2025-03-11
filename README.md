@@ -1,2 +1,2 @@
 # WISA
-This is the official reproduction of WISA.
+This is the project page of WISA.
