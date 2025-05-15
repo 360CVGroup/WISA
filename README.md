@@ -11,8 +11,8 @@ Jing Wang*, Ao Ma*, Ke Cao*, Jun Zheng, Zhanjie Zhang, Jiasong Feng, Shanyuan Li
 
 
 ## 📰 News
-- **[2025.05.15]** 🚀 We are excited to announce the official release of WISA's codebase and model weights on GitHub! This implementation is built upon the powerful [finetrains](https://github.com/a-r-r-o-w/finetrainers) framework.
-- **[2025.03.28]** 🔥 We have uploaded the [WISA-80K](https://huggingface.co/datasets/qihoo360/WISA-80K) dataset to Hugging Face, including processed video clips and annotations. 
+- **[2025.05.15]** 🔥 We are excited to announce the official release of WISA's codebase and model weights on GitHub! This implementation is built upon the powerful [finetrains](https://github.com/a-r-r-o-w/finetrainers) framework.
+- **[2025.03.28]** We have uploaded the [WISA-80K](https://huggingface.co/datasets/qihoo360/WISA-80K) dataset to Hugging Face, including processed video clips and annotations. 
 - **[2025.03.12]** We have released our paper [WISA](https://arxiv.org/pdf/2503.08153) and created a dedicated [project homepage](https://360cvgroup.github.io/WISA/). 
 
 <table align="center" style="width: 100%;">
@@ -58,18 +58,16 @@ Jing Wang*, Ao Ma*, Ke Cao*, Jun Zheng, Zhanjie Zhang, Jiasong Feng, Shanyuan Li
 </table>
 
 
-
 ##  🚀 Quick Started
 
 ### 1. Environment Set Up
-Clone this repository and install packages.!
+Clone this repository and install packages.
 ```bash
 git clone https://github.com/360CVGroup/WISA.git
 cd WISA
 conda create -n wisa python=3.10
 conda activate wisa
 pip install -r requirements.txt
-
 ```
 
 ### 2. Download Pretrained Weights
@@ -86,7 +84,7 @@ modelscope download ZhipuAI/CogVideoX-5b --local_dir ./CogVideoX-5b-Diffusers
 ```
 
 #### 2. Download WISA Pretrained Lora and Physical-block Weight
-Please download weight from [Huggingface](https://huggingface.co/datasets/qihoo360/WISA-80K) and put it in `./pretrain_models/WISA/`.
+Please download weight from [Huggingface](https://huggingface.co/qihoo360/WISA) and put it in `./pretrain_models/WISA/`.
 
 ```bash
 git lfs install
@@ -113,7 +111,6 @@ Download the WISA-80K dataset from [huggingface](https://huggingface.co/datasets
 This project supports precomputing and saving the latent codes of videos and text embeddings to avoid loading the VAE and Text Encoder onto the GPU during training, thereby reducing GPU memory usage. This operation is essential when training Wan2.1-14B; otherwise, it will result in an out-of-memory (OOM) error.
 
 **Step 1**: you need to add the following parameters to the `dataset_cmd` in your training script (like `examples/training/sft/wan/crush_smol_lora/train_wisa.sh`), and ensure you have sufficient storage space available.
-
 ```bash
 dataset_cmd=(
   --dataset_config $TRAINING_DATASET_CONFIG
@@ -126,6 +123,7 @@ dataset_cmd=(
   --first_samples
 )
 ```
+
 **Step 2**: Configure dataset paths in file `examples/training/sft/cogvideox/crush_smol_lora/training_wisa.json` and execute
 ```bash
 sh examples/training/sft/wan/crush_smol_lora/train_wisa.sh
@@ -148,7 +146,6 @@ dataset_cmd=(
 ```
 
 ### 3. Start Training
-
 ```bash
 sh examples/training/sft/wan/crush_smol_lora/train_wisa.sh
 ```
@@ -159,7 +156,6 @@ This work stands on the shoulders of groundbreaking research and open-source con
 
 * [CogVideoX](https://github.com/THUDM/CogVideo) - For their pioneering work in video generation
 * [Wan2.1](https://github.com/Wan-Video/Wan2.1) - For their foundational contributions to large-scale video models
-
 
 Special thanks to the [finetrains](https://github.com/a-r-r-o-w/finetrainers) framework for enabling efficient model training - your excellent work has been invaluable to this project.
 
