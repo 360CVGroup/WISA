@@ -157,7 +157,7 @@ This work stands on the shoulders of groundbreaking research and open-source con
 * [CogVideoX](https://github.com/THUDM/CogVideo) - For their pioneering work in video generation
 * [Wan2.1](https://github.com/Wan-Video/Wan2.1) - For their foundational contributions to large-scale video models
 
-Special thanks to the [finetrains](https://github.com/a-r-r-o-w/finetrainers) framework for enabling efficient model training - your excellent work has been invaluable to this project.
+Special thanks to the [finetrainers](https://github.com/a-r-r-o-w/finetrainers) framework for enabling efficient model training - your excellent work has been invaluable to this project.
 
 
 ## BibTeX
