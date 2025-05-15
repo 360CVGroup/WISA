@@ -15,29 +15,48 @@ Jing Wang*, Ao Ma*, Ke Cao*, Jun Zheng, Zhanjie Zhang, Jiasong Feng, Shanyuan Li
 - **[2025.03.28]** 🔥 We have uploaded the [WISA-80K](https://huggingface.co/datasets/qihoo360/WISA-80K) dataset to Hugging Face, including processed video clips and annotations. 
 - **[2025.03.12]** We have released our paper [WISA](https://arxiv.org/pdf/2503.08153) and created a dedicated [project homepage](https://360cvgroup.github.io/WISA/). 
 
+<table align="center" style="width: 100%;">
+  <tr>
+    <th align="center" style="width: 33%;">Wan2.1-14B</th>
+    <th align="center" style="width: 33%;">WISA</th>
+    <th align="center" style="width: 34%;">Prompt</th>
+  </tr>
+  <tr>
+    <td align="center" style="width: 33%;">
+      <video width="100%" controls src="https://github.com/user-attachments/assets/fa343d48-2eea-45dc-aec2-ee6897b5995f">Your browser does not support the video tag.</video>
+    </td>
+    <td align="center" style="width: 33%;">
+      <video width="100%" controls src="https://github.com/user-attachments/assets/45622daf-89ae-41d7-884c-5e443526c5f4">Your browser does not support the video tag.</video>
+    </td>
+    <td align="center" style="width: 34%;">
+      A dry clump of soil rests on a flat surface, with fine details of its texture and cracks visible. ...
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="width: 33%;">
+      <video width="100%" controls src="https://github.com/user-attachments/assets/be4ed08d-4d73-4eea-846f-74f65abcd875">Your browser does not support the video tag.</video>
+    </td>
+    <td align="center" style="width: 33%;">
+      <video width="100%" controls src="https://github.com/user-attachments/assets/307081d7-c9f5-4f5a-b484-3120cc5131e1">Your browser does not support the video tag.</video>
+    </td>
+    <td align="center" style="width: 34%;">
+      The camera focuses on a toothpaste tube on the bathroom countertop. As a finger gently applies...
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="width: 33%;">
+      <video width="100%" controls src="https://github.com/user-attachments/assets/db5111c5-6d39-4bb3-ad05-475d38227017">Your browser does not support the video tag.</video>
+    </td>
+    <td align="center" style="width: 33%;">
+      <video width="100%" controls src="https://github.com/user-attachments/assets/0187608a-0d5c-4daa-a948-b436b80d1425">Your browser does not support the video tag.</video>
+    </td>
+    <td align="center" style="width: 34%;">
+      A bowl of clear water sits in the center of a freezer. As the temperature gradually drops...
+    </td>
+  </tr>
 
-<table align="center">
-<tr>
-  <th align="center">Wan2.1-14B</th>
-  <th align="center">WISA</th>
-  <th align="center">Prompt</th>
-</tr>
-<tr>
-  <td align="center"><video src="https://github.com/360CVGroup/WISA/blob/eea7004d7641974c5659f34bcf6167108891489a/assets/videos/wan_1.mp4">Your browser does not support the video tag.</video></td>
-  <td align="center"><video src="https://raw.githubusercontent.com/360CVGroup/WISA/main/assets/videos/wisa_wan_1.mp4">Your browser does not support the video tag.</video></td>
-  <th align="center">A dry clump of soil rests on a flat surface, with fine details of its texture and cracks visible. As a heavy object presses down slowly, the surface first releases a faint dust. With increasing pressure, the cracks spread, and the soil splits into uneven fragments. The fragments' surfaces display irregular patterns, while fine powder disperses into the surrounding air, creating a thin veil of dust. The entire scene captures the irreversible transformation of the soil's structure under compression.</th>
-</tr>
-<tr>
-  <td align="center"><video src="assets/videos/wan_3.mp4">Your browser does not support the video tag.</video></td>
-  <td align="center"><video src="assets/videos/wisa_wan_3.mp4">Your browser does not support the video tag.</video></td>
-  <th align="center">A bowl of clear water sits in the center of a freezer. As the temperature gradually drops, tiny ice crystals begin to form on the surface, resembling a thin layer of frost. The crystals spread rapidly, connecting to create a delicate solid ice film. Over time, the film thickens and eventually covers the entire surface, while the water beneath slowly freezes. Finally, the entire bowl of water solidifies into a transparent block of ice, reflecting the faint light of the freezer and illustrating the transformation from liquid to solid.</th>
-</tr>
-<tr>
-  <td align="center"><video src="/assets/videos/wan_2.mp4">Your browser does not support the video tag.</video></td>
-  <td align="center"><video src="/assets/videos/wisa_wan_2.mp4">Your browser does not support the video tag.</video></td>
-  <th align="center">The camera focuses on a toothpaste tube on the bathroom countertop. As a finger gently applies pressure to one end of the tube, a steady stream of toothpaste begins to emerge from the opening. At first, the toothpaste flows slowly, but as the pressure increases, the flow speeds up, forming a smooth, white line. The surface of the toothpaste is smooth with delicate textures, and the air around the nozzle is filled with a fresh, minty scent. Eventually, the toothpaste forms a uniform line, neatly resting on the bristles of a toothbrush, ready for brushing.</th>
-</tr>
 </table>
+
 
 
 ##  🚀 Quick Started
