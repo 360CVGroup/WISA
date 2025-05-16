@@ -124,7 +124,7 @@ dataset_cmd=(
 )
 ```
 
-**Step 2**: Configure dataset paths in file `examples/training/sft/cogvideox/crush_smol_lora/training_wisa.json` and execute
+**Step 2**: Configure dataset paths in file `examples/training/sft/wan/crush_smol_lora/training_wisa.json` and execute
 ```bash
 sh examples/training/sft/wan/crush_smol_lora/train_wisa.sh
 ```
