@@ -1,8 +1,4 @@
 #!/bin/bash
-export PYTHONPATH=home/jovyan/maao-data-cephfs-3/workspace/wangjing/physical_projects/finetrainers/:$PYTHONPATH
-
-export CUDA_VISIBLE_DEVICES=7
-
 MODEL_TYPE="wanx2_1"  # "cogvideox" or "wanx2_1"
 GEN_TYPE="wisa" # "baseline", "lora" or "wisa"
 
