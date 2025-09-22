@@ -12,7 +12,7 @@ Jing Wang*, Ao Ma*, Ke Cao*, Jun Zheng, Zhanjie Zhang, Jiasong Feng, Shanyuan Li
 
 ## 📰 News
 - **[2025.05.15]** 🔥 We are excited to announce the official release of WISA's codebase and model weights on GitHub! This implementation is built upon the powerful [finetrainers](https://github.com/a-r-r-o-w/finetrainers) framework.
-- **[2025.03.28]** We have uploaded the [WISA-80K](https://huggingface.co/datasets/qihoo360/WISA-80K) dataset to Hugging Face, including processed video clips and annotations. 
+- **[2025.03.28]** We have uploaded the [WISA-80K](https://huggingface.co/datasets/qihoo360/WISA-80K/tree/dddbd5683581c2ebf0b463e2b1c3342b2094bfb3) dataset to Hugging Face, including processed video clips and annotations. 
 - **[2025.03.12]** We have released our paper [WISA](https://arxiv.org/pdf/2503.08153) and created a dedicated [project homepage](https://360cvgroup.github.io/WISA/). 
 
 <table align="center" style="width: 100%;">
@@ -105,7 +105,7 @@ sh inference.sh
 
 ### 1. Download WISA-80K
 
-Download the WISA-80K dataset from [huggingface](https://huggingface.co/datasets/qihoo360/WISA-80K).
+Download the WISA-80K dataset from [huggingface](https://huggingface.co/datasets/qihoo360/WISA-80K/tree/dddbd5683581c2ebf0b463e2b1c3342b2094bfb3).
 
 ### 2. Precomputing Latents and Text Embeddings (Optional)
 This project supports precomputing and saving the latent codes of videos and text embeddings to avoid loading the VAE and Text Encoder onto the GPU during training, thereby reducing GPU memory usage. This operation is essential when training Wan2.1-14B; otherwise, it will result in an out-of-memory (OOM) error.
